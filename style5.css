@@ -1,0 +1,43 @@
+#creative-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#creative-heading{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#box-design{
+    display:flex;
+    flex-direction: row;
+    width:32%;
+    height: 300px;
+}
+@media  screen and (max-width:600px) {
+    #box-design{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+#div-red{
+    width:inherit;
+    height: inherit;
+    margin:0.44%;
+    background-color: #ff8989;   
+}
+
+#div-green{
+    width:inherit;
+    height: inherit;
+    margin:0.44%;
+    background-color: #88f7ce;
+}
+#div-purple{
+    width:inherit;
+    height: inherit;
+    margin:0.44%;
+    background-color: #e29df2;
+}

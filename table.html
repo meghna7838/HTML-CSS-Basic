@@ -1,0 +1,82 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learning table</title>
+    </head>
+    <body>
+        <table border="4">
+            <caption> Demo</caption>
+            <tr>
+                <!--
+                <td></td>
+                <td>1st col</td>
+                <td>2nd col</td>
+                <td>3rd col</td>-->
+                <!-- to make header use:<th>-->
+                <th></th>
+                <th>1st col</th>
+                <th>2nd col</th>
+                <th>3rd col</th>
+
+            </tr>
+            <tr>
+                <th>row 1</th>
+                <td>(1,1)</td>
+                <td>(1,2)</td>
+                <td>(1,3)</td>
+            </tr>
+            <tr>
+                <th>row 2</th>
+                <td>(2,1)</td>
+                <td>(2,2)</td>
+                <td>(2,3)</td>
+            </tr>
+            <tr>
+                <th>row 3</th>
+                <td>(3,1)</td>
+                <td>(3,2)</td>
+                <td>(3,3)</td>
+            </tr>
+        </table>
+
+        <table border="12">
+            <caption> Demo2</caption>
+            <tr>
+                <!--
+                <td></td>
+                <td>1st col</td>
+                <td>2nd col</td>
+                <td>3rd col</td>-->
+                <!-- to make header use:<th>-->
+                <th></th>
+                <th colspan="2">1st col</th>
+                <th>2nd col</th>
+                <!--<th>3rd col</th>-->
+
+            </tr>
+            
+            <tr>
+                <th rowspan="2">row 1</th>
+                <td>(1,1)</td>
+                <td>(1,2)</td>
+                <td>(1,3)</td>
+            </tr>
+            <tr>
+                <!--<th>row 2</th>-->
+                <td>(2,1)</td>
+                <td>(2,2)</td>
+                <td>(2,3)</td>
+            </tr>
+            <tr>
+                <th>row 3</th>
+                <td>(3,1)</td>
+                <td>(3,2)</td>
+                <td>(3,3)</td>
+            </tr>
+        </table>
+    </body>
+    </html>
+</html>
