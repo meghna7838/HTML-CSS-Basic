@@ -1,0 +1,40 @@
+#div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: aquamarine;
+    /*transform: rotate(100deg);*/
+    /*transform: scale(1.5,2);*/
+    /*transform: translate(100px,50px);*/
+    /*transform: skew(7deg);*/
+    transition: 1s ease-in-out;
+
+
+}
+
+#div:hover{
+ transform: scale(1.5) translate(150px);
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    background-color: purple;
+    transition: 1s ease-in-out;
+    
+}
+
+#div2:hover{
+    
+    transform: scale(0.5) translate(150px);
+    border-radius: 50%;
+
+   }
+
+
+
