@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10%;
+    left:10%;
+    background-color: aquamarine;
+    animation: changeshape 1s ease-in-out 4 alternate;
+}
+
+@keyframes changeshape{
+    /*from{
+        border-radius: 0%;
+    }
+
+    to{
+        border-radius: 50%;
+    }*/
+    0%{
+        border-radius: 0%;
+    }
+    25%{
+        border-radius: 12.5%;
+
+    }
+    50%{
+        border-radius: 25%;
+    }
+    100%
+    {
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10%;
+    left:10%;
+    background-color: aquamarine;
+    animation: bounce 1s ease-in-out 4 alternate;
+}
+
+@keyframes bounce{
+  
+        0% {
+         transform: translateY(0);
+       }
+         25%{
+             transform: translateY(-25px);
+         }
+         50%{
+             transform: translateY(-50px);
+         }
+         75%
+         {
+             transform: translateY(-75%);
+         }
+       100%{
+         transform: translateY(-100px);
+       }
+}
